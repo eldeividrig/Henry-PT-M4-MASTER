@@ -7,6 +7,9 @@ const db = new Sequelize('postgres://postgres:alvlgeddl@localhost:5432/henry_seq
   logging: false,
 });
 
+//ALTER USER postgres PASSWORD 'my_postgres_password';
+
+
 modelCharacter(db);
 modelAbility(db);
 modelRole(db);
